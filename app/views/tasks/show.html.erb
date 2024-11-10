@@ -1,0 +1,7 @@
+<%= turbo_frame_tag "task_details" do %>
+  <h2><%= @task.title %></h2>
+  <p><%= @task.description %></p>
+
+  <%= link_to "Edit Task", edit_task_path(@task) %>
+<% end %>
+<p>ths is frame show<p>
